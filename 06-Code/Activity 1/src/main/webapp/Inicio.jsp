@@ -4,9 +4,6 @@
     Author     : Grupo2
 --%>
 
-<%--El código fue tomado del repositorio de Github https://github.com/jojozhuang/tutorial-projects
-//@author jojozhuang --%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -19,3 +16,6 @@
 </div>
 <hr/>
 </html>
+
+<%--El código del proyecto fue basado en el repositorio de Github https://github.com/jojozhuang/tutorial-projects
+//@author jojozhuang --%>
