@@ -21,6 +21,7 @@ const imgRoutes = require('./routes/img');
 const paymentsIntentRoutes = require('./routes/paymentsIntent');
 const ordersRoutes = require('./routes/orders');
 
+
 // MIDDLEWARE
 app.use(cors());
 app.use(express.json());
@@ -29,6 +30,7 @@ app.use('/items', itemsRoutes);
 app.use('/img', imgRoutes);
 app.use('/create-payment-intent', paymentsIntentRoutes);
 app.use('/order', ordersRoutes);
+
 
 // Rutas
 app.get('/', (req, res) => {

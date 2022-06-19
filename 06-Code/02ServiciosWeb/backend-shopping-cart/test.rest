@@ -14,15 +14,15 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/img/pokemon-rojo.jpg
+GET http://localhost:3000/img/Iphone_13.jpg
 
 ###
 POST http://localhost:3000/items
 Content-Type: application/json
 
 {
-   "title": "Samsung Circle",
-    "price": 1300.85,
+   "title": "Xperia 1 IV",
+    "price": 1800.50,
     "image": "Samsung_Circle.jpg"
 }
 
@@ -49,4 +49,16 @@ Content-Type: application/json
             "qty": 2
         }
     ]
+}
+
+###
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "DNI": "1718393364",
+    "name": "Andres",
+    "lastname": "Cosios",
+    "phone": 593992540490,
+    "add": "Argelia"
 }
