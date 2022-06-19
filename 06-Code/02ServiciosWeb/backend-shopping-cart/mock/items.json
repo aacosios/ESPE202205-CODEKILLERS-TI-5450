@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1ec58676-898f-4fa5-9fcf-1f386dda4724",
+    "title": "GalaxyTab Se",
+    "price": 1500,
+    "image": "GalaxyTab_Se.jpg"
+  },
+  {
+    "id": "420bad3c-974e-4749-9e35-7ea303320e93",
+    "title": "Iphone 13",
+    "price": 850,
+    "image": "Iphone_13.jpg"
+  },
+  {
+    "id": "bb5c95a2-f1d3-44ad-bafd-3ebd7bdbcaa9",
+    "title": "Laptop Asus",
+    "price": 935.2,
+    "image": "Laptop_Asus.jpg"
+  },
+  {
+    "id": "8655bd50-c30c-476c-81e4-ce78a0298a52",
+    "title": "Samsung Circle",
+    "price": 1300.85,
+    "image": "Samsung_Circle.jpg"
+  }
+  
+]
