@@ -82,17 +82,6 @@ import axios from 'axios';
                                 score: item.score
                             }
                             
-                           /*
-                            {
-                                id: Math.random() * (100000 - 1) + 1,
-                                country: item.country,
-                                domains: item.domains,
-                                name: item.name,
-                                webPages: item.web_pages,
-                                alphaTwoCode: item.alpha_two_code
-
-                            }
-                            */
 
                         )) 
                     }
