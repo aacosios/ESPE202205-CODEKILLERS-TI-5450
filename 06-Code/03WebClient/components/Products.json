@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Galaxy-Tab-Se",    
+    "Price": "1.500$.",
+    "img": "https://i.ibb.co/Hp8f0Wq/Galaxy-Tab-Se.jpg"
+  },
+
+  {
+    "id": 2,
+    "title": "Iphone-13",    
+    "Price": "850$.",
+    "img": "https://i.ibb.co/VwKQRXX/Iphone-13.jpg"
+  },
+  
+  {
+    "id": 3,
+    "title": "Laptop-Asus",    
+    "Price": "2.500$.",
+    "img": "https://i.ibb.co/ZN0fRP4/Laptop-Asus.jpg"
+  },
+  
+  {
+    "id": 4,
+    "title": "Samsung-circle",    
+    "Price": "3.500$.",
+    "img": "https://i.ibb.co/ZKt7Fv8/Samsung-circle.jpg"
+  }
+
+]
