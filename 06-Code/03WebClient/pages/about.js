@@ -1,13 +1,12 @@
-import React from 'react'
-import Abstract from '../components/Abstract'
+import React from "react";
+
+import { About } from '../components/About';
+
 
 const about = () => {
   return (
-    <div>ABOUT PAGE IN PROCESS...
-      <div><Abstract/></div>
-    </div>
-    
-
+    <div><About/></div>    
+      
   )
 }
 
