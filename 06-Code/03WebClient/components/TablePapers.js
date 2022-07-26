@@ -5,42 +5,7 @@ import FormCountry from './FormCountry'
 
 import { DataGrid } from '@mui/x-data-grid';
 import axios from 'axios';
-//import styles from "../styles/index.css";
 
-/*
-export default function TableCountries () {
-    const [countries, setCountries] = useState([])
-    const [formCountry, setformCountry] = useState({
-        id: ""
-    })
-    
-    useEffect(() => {
-        async function loadCountries() {
-            const response = await getCountry(formCountry.id)
-
-            if (response.status === 200) {
-                setCountries(response.data)
-            }
-        }
-
-        loadCountries()
-        
-    }, [formCountry])
-    
-    console.log(countries)
-    const columns = [
-        { field: 'id', headerName: 'ID', width: 200 },
-        { field: 'journal', headerName: 'JOURNAL', width: 200 },
-        { field: 'eissn', headerName: 'EISSN', width: 200 },
-        { field: 'publication_date', headerName: 'PUBLICATION DATE', width: 200 },
-        { field: 'article_type', headerName: 'ARTICLE TYPE', width: 200 },
-        { field: 'author_display', headerName: 'AUTHOR DISPLAY', width: 200 },
-        { field: 'title_display', headerName: 'TITLE DISPLAY', width: 200 },
-        { field: 'score', headerName: 'SCORE', width: 200 }
-        
-    ]
-
-    */
 
     export default function TablePapers () {
         const [papers, setPapers] = useState([])
@@ -48,18 +13,7 @@ export default function TableCountries () {
             id: ""
         })
         
-        // useEffect(() => {
-        //     async function loadPapers() {
-        //         const response = await getPaper(formPaper.id)
-    
-        //         if (response.status === 200) {
-        //             setPapers(response.response.docs)
-        //         }
-        //     }
-    
-        //     loadPapers()
-            
-        // }, [formPaper])
+
 
         useEffect(  () => {
             fetch('https://api.plos.org/search?q=title:github')
