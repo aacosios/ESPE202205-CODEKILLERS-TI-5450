@@ -42,16 +42,7 @@ import axios from 'axios';
     
         
 
-    /*
-    const columns = [
-        { field: 'country', headerName: 'Country', width: 200 },
-        { field: 'domains', headerName: 'Domain', width: 200 },
-        { field: 'name', headerName: 'Name', width: 200 },
-        { field: 'webPages', headerName: 'Web page', width: 200 },
-        { field: 'alphaTwoCode', headerName: 'Code', width: 200 }
-        
-    ]
-    */
+
     return (
        
         <Box
