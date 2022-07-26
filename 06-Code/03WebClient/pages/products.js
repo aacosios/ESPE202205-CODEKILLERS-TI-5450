@@ -1,8 +1,12 @@
-import React from 'react'
+import React from "react";
+import ReactDOM from "react-dom";
+import { Product } from '../components/Product';
+
 
 const products = () => {
   return (
-    <div>PRODUCTS PAGE IN PROCESS</div>
+    <div><Product/></div>    
+      
   )
 }
 
