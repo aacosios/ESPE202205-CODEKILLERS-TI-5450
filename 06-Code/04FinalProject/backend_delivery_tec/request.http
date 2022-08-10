@@ -1,0 +1,137 @@
+////////////////USUARIO////////////////////////
+###
+POST http://localhost:3000/delivery/addedUser HTTP/1.1
+Content-Type: application/json
+
+{
+    "userName": "Maria Flores",
+    "userAddress": "Calle A y Calle B",
+    "userPhone": 987654780,
+    "userEmail": "maria19@espe.edu.ec"
+}
+
+###
+GET http://localhost:3000/delivery/allUsers HTTP/1.1
+
+###
+PUT http://localhost:3000/delivery/updatedUser/62ccf6fc7530bc39d3c8de3c HTTP/1.1
+Content-Type: application/json
+
+{
+    "userName": "Maria Flores",
+    "userAddress": "Calle A y Calle B",
+    "userPhone": 987654780,
+    "userEmail": "maria19@espe.edu.ec"
+}
+
+###
+DELETE http://localhost:3000/delivery/deleteUser/62ccf6fc7530bc39d3c8de3c HTTP/1.1
+
+
+//////////PRODUCTO///////////////////
+
+//AÑADIR PRODUCTO
+###
+POST http://localhost:3000/delivery/addedProduct HTTP/1.1
+Content-Type: application/json
+
+{
+    "productName": "A13",
+    "productBrand": "Samsung",
+    "productPrice": 400,
+    "productQuantity": 2,
+    "productDescription": "A12-Samsung $400 with discount 5%"
+}
+
+////REGLA IVA///
+###
+POST http://localhost:3000/delivery/productSold HTTP/1.1
+Content-Type: application/json
+
+{
+    "productName": "A13",
+    "productBrand": "Samsung",
+    "productPrice": 400,
+    "productQuantity": 2,
+    "productDescription": "A12-Samsung $400 with discount 5%"
+}
+
+//TODOS LOS PRODUCTOS
+###
+GET http://localhost:3000/delivery/allProducts HTTP/1.1
+
+//TODOS LOS PRODUCTOS CON REGLA DE NEGOCIO
+###
+GET http://localhost:3000/delivery/productSold HTTP/1.1
+
+//ELIMINAR PRODUCTO POR ID
+###
+DELETE http://localhost:3000/delivery/deletedProduct/62cdffdc208b094e08197210 HTTP/1.1
+
+//ACTUALIZAR PRODUCTO 
+###
+PUT http://localhost:3000/delivery/updatedProduct/62cdffdc208b094e08197210 HTTP/1.1
+Content-Type: application/json
+
+{
+    "productName": "A13",
+    "productBrand": "Samsung",
+    "productPrice": 400,
+    "productQuantity": 2,
+    "productDescription": "A12-Samsung $400 with discount 5%"
+}
+
+////////////////DEALER////////////////////////
+###
+POST http://localhost:3000/delivery/addedDealer HTTP/1.1
+Content-Type: application/json
+
+{
+    "dealerName": "Andres Cosios",
+    "dealerID": "1745788978",
+    "dealerPhone": 987654780,
+    "dealerEmail": "andrescosios@delivery.ec",
+    "dealerVehicle": "Moto"
+}
+
+###
+GET http://localhost:3000/delivery/allDealers HTTP/1.1
+
+###
+PUT http://localhost:3000/delivery/updatedDealer/62ce236a5740eae0c2b9f223 HTTP/1.1
+Content-Type: application/json
+
+{
+    "dealerName": "Carmen Salinas",
+    "dealerID": 12345687466,
+    "dealerPhone": 9856321466,
+    "dealerEmail": "carmensal@delivery.ec",
+    "dealerVehicle": "Moto"
+}
+
+###
+DELETE http://localhost:3000/delivery/deletedDealer/62ccf6fc7530bc39d3c8de3c HTTP/1.1
+
+////////////////PAYMENT////////////////////////
+###
+POST http://localhost:3000/delivery/addedPay HTTP/1.1
+Content-Type: application/json
+
+{
+    "creditCard": 5012347891,
+    "payEmail": "maria19@espe.edu.ec"
+}
+
+###
+GET http://localhost:3000/delivery/allPayments HTTP/1.1
+###
+PUT http://localhost:3000/delivery/deletedPay/62ce176af64fd6d867e9d789 HTTP/1.1
+Content-Type: application/json
+
+{
+    "creditCard": 5012347891,
+    "payEmail": "maria19@espe.edu.ec"
+}
+###
+DELETE http://localhost:3000/delivery/deletedPay/62ce176af64fd6d867e9d789 HTTP/1.1
+
