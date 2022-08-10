@@ -19,14 +19,23 @@ const Navbar = () => {
           <Link href="/products">
           <li className={styles.listItem}>Products</li>
           </Link>
-          <Link href="/login">
-          <li className={styles.listItem}>Login</li>
+          <Link href="/papers">
+          <li className={styles.listItem}>papers</li>
           </Link>
           <Link href="/publicAPI">
           <li className={styles.listItem}>Public API</li>
           </Link>
           <Link href="/privateAPI">
           <li className={styles.listItem}>Private API</li>
+          </Link>
+          <Link href="/abstract">
+          <li className={styles.listItem}>Abstract</li>
+          </Link>
+          <Link href="/client_pc">
+          <li className={styles.listItem}>Client_PC</li>
+          </Link>          
+          <Link href="/login">
+          <li className={styles.listItem}>login</li>
           </Link>
         </ul>
       </div>
@@ -39,5 +48,6 @@ const Navbar = () => {
     </div>
   );
 };
+
 
 export default Navbar;
