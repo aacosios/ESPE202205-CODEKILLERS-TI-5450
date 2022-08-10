@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import styles from "../styles/about.module.css";
 import deliv from "../public/img/deliv.png";
 
@@ -9,21 +10,16 @@ export function About() {
 <header>
         <h1 className={styles.title}>About us </h1>
       </header>
-      <img public={deliv}/>
+      <Image public={deliv} alt="delivery"></Image>
         <body>
-<font size="6">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
-inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
- sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
- Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
- adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore 
- magnam aliquam quaerat voluptatem.</font>
+<font size="6"> Nuestro objetivo es apoyar a la economía ecuatoriana 
+cuando inician o experimentan una transformación tecnológica importante.
+Si pensabas que los delivery solo hacían entrega de comida, pues 
+¡estás equivocado! Si algo sabemos es que la pandemia ha incrementado 
+y brotado las ideas de todos para hacer emprendimientos innovadores. 
+Uno de ellos son los delivery de tecnología. 
+.</font>
         </body>
-      
-      
-
-      
       
 
     </div>
