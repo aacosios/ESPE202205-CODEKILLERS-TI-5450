@@ -8,7 +8,7 @@ const ItemsDelivery = () => {
       <h1 className={styles.title}></h1>
       <span className={styles.price}>$1200</span>
       <p className={styles.desc}>
-       Apple iPhone 13 Pro Max - 128 GB - iOS 15 - Pacific Blue - 5G.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </p>
     </div>
   );
