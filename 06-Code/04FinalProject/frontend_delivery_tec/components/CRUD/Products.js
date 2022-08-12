@@ -58,22 +58,7 @@ const Products = () => {
         console.log("Response1", response.data);
         setData(response.data);
       });
-    /*
-            .then(response => {
-                const result = response;
-                const { status, message } = result;
-                if (status !== 'SUCCESS') {
-                    alert(message, status)
-                }
-                else {
-                    setData(response)
-                    console.log(response)
-                }
-            })
-            .catch(err => {
-                console.log(err)
-            })
-            */
+  
   };
 
   /*
