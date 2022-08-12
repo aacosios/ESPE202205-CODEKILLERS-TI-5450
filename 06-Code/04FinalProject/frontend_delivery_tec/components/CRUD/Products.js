@@ -112,22 +112,7 @@ const Products = () => {
       
       setData(response.data);
     });
-    /*
-            .then(response => {
-                const result = response.data;
-                const { status, message } = result;
-                if (status !== 'SUCCESS') {
-                    alert(message, status)
-                }
-                else {
-                    alert(message)
-                    window.location.reload()
-                }
-            })
-            .catch(err => {
-                console.log(err)
-            })
-        */
+
   };
 
   //call this function in useEffect
