@@ -72,13 +72,7 @@ const Products = () => {
       productQuantity
     };
     axios.post(url, Credentials).then(response => {
-      //console.log("Response2", response.data);
-      //setData(response.data);
-      //window.location.reload();
-    //});
-    
 
-            //.then(response => {
                 const result = response.data;
                 const { status, message, data } = result;
                 if (status !== 'SUCCESS') {
