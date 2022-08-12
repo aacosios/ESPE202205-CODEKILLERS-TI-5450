@@ -61,17 +61,7 @@ const Products = () => {
   
   };
 
-  /*
-    useEffect(() => {
-        fetch("http://3.86.206.55:3002/delivery/allProducts")
-    .then(response => response.json())
-    .then((response) => {
-  console.log('Response???', response);
-  setData(response);
-    })
-},[])    
 
-*/
 
   const handleSubmite = () => {
     const url = 'http://3.86.206.55:3002/delivery/addedProduct';
